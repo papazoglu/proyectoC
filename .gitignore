@@ -1,0 +1,6 @@
+#Ignorar ejecutables .exe
+*.exe
+
+
+#Ignorar carpetas de compilación
+/bin/
