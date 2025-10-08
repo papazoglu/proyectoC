@@ -7,8 +7,9 @@ void imprimir(int v[], int n);
 int main(){
 	
 	int vector[5];
+	printf("Cargamos el vector:\n");
 	carga(vector,5);
-	printf("fin del ejercicio");
+	printf("Imprimimos el vector:\n");
 	imprimir(vector,5);
 	
 	
@@ -26,6 +27,6 @@ void carga(int v[], int n){
 void imprimir(int v[], int n){
 	int i;
 	for(i=0;i<n;i++){
-		printf("valor: %i",v[i]);
+		printf("valor: %i\n",v[i]);
 	}
 }
