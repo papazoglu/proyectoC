@@ -1,4 +1,5 @@
 #include<stdio.h>
+#define N 5
 
 //prototipos de funciones
 void carga(int v[], int n);
@@ -6,11 +7,11 @@ void imprimir(int v[], int n);
 
 int main(){
 	
-	int vector[5];
+	int vector[N];
 	printf("Cargamos el vector:\n");
-	carga(vector,5);
+	carga(vector,N);
 	printf("Imprimimos el vector:\n");
-	imprimir(vector,5);
+	imprimir(vector,N);
 	
 	
 	return 0;
