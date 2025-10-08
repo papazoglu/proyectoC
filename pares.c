@@ -28,6 +28,6 @@ void carga(int v[], int n){
 void imprimir(int v[], int n){
 	int i;
 	for(i=0;i<n;i++){
-		printf("valor: %i\n",v[i]);
+		printf("N%i=%i\n",i+1,v[i]);
 	}
 }
